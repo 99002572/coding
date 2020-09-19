@@ -43,12 +43,7 @@ int main() {
 }
 
 /* Write all the test functions */ 
-void test_validatePin(void) {
-  CU_ASSERT(2018 == validatePin(2018));
-  
-  /* Dummy fail*/
-  CU_ASSERT(5286 == validatePin(1524));
-}
+
 
 void test_with_cash(void) {
   CU_ASSERT(500 == with_cash(500, 1000));

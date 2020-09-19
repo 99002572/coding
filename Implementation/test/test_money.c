@@ -7,7 +7,7 @@
 #define PROJECT_NAME    "Atm"
 
 /* Prototypes for all the test functions */
-void test_validatePin(void);
+
 void test_with_cash(void);
 void test_deposits_cash(void);
 void test_to_send(void);
@@ -23,7 +23,7 @@ int main() {
   
   
   /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "validatePin", test_validatePin);
+
   CU_add_test(suite, "with_cash", test_with_cash);
   CU_add_test(suite, "deposits_cash", test_deposits_cash);
   CU_add_test(suite, "to_send", test_to_send);

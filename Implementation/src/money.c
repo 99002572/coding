@@ -11,6 +11,7 @@ void validatePin(int PIN){
         attempts += 1;
         if(enteredPin == PIN){
             validPin = 1;
+            printf("ok");
         }else{
             printf("The PIN you entered in invalid.\n");
             printf("Enter a valid PIN %d more attempts: ", maxAttempts-attempts);

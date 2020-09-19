@@ -72,7 +72,7 @@ printf("cash=%d w=%d",cash,deposit);
      else
      {
          printf("Re-enter the account number\n");
-         to_send(send,cash);
+         
      }
      if(send>cash)
      {
